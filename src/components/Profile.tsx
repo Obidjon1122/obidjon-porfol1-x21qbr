@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { Github, Linkedin, Mail, Twitter } from 'lucide-react';
-
+import ProfileIcon from "./obidjonup.jpeg"
 const socialLinks = [
   {
     icon: Github,
@@ -36,6 +36,7 @@ export function Profile() {
         <div className="absolute inset-0 bg-gradient-to-br from-indigo-500 to-purple-500 rounded-full animate-pulse"></div>
         <img
           alt="Profile"
+          src={ProfileIcon}
           className="relative w-full h-full object-cover rounded-full border-4 border-white/10"
         />
       </div>
